@@ -5,8 +5,15 @@ evaluate
 scikit-learn
 pandas
 numpy
+pyarrow
+pyyaml
+joblib
+mlflow
 matplotlib
 seaborn
+langdetect
 jupyter
 ipykernel
 pytest
+torch
+transformers
