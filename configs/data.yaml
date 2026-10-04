@@ -1,0 +1,18 @@
+dataset:
+  name: coastalcph/lex_glue
+  subset: ledgar
+  revision: null          # set to "refs/convert/parquet" if loading fails
+  splits: [train, validation, test]
+  num_labels: 100
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+
+validation:
+  min_rows:
+    train: 50000
+    validation: 8000
+    test: 8000
+
+seed: 42
