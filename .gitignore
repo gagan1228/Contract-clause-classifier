@@ -10,3 +10,6 @@ models/*
 *.safetensors
 *.onnx
 .env
+mlruns/
+mlflow.db
+reports/
