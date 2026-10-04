@@ -1,0 +1,12 @@
+.venv/
+__pyache__/
+data/raw/*
+data/processed/*
+.gitkeep
+!data/**/.gitkeep
+models/*
+*.pt
+*.bin
+*.safetensors
+*.onnx
+.env
